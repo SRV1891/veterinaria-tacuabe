@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Veterinaria Tacuabé - Cuidado de pequeños animales, venta de productos para grandes animales en Uruguay.">
+  <title>Veterinaria Tacuabé</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Veterinaria Tacuabé</h1>
+    <p>Cuidando a tus compañeros de vida</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#quien-soy">Quién soy</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <ul class="grid">
+        <li>
+          <img src="img/perro.png" alt="Icono de perro">
+          <p>Consulta clínica para perros y gatos</p>
+        </li>
+        <li>
+          <img src="img/conejo.png" alt="Icono de conejo">
+          <p>Atención a pequeños animales exóticos</p>
+        </li>
+        <li>
+          <img src="img/vaca.png" alt="Icono de vaca">
+          <p>Venta de medicamentos para grandes animales</p>
+        </li>
+        <li>
+          <img src="img/caballo.png" alt="Icono de caballo">
+          <p>Alimentos balanceados para equinos y vacunos</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="quien-soy">
+      <h2>Quién soy</h2>
+      <p>Soy veterinaria con pasión por el bienestar animal. Con más de 10 años de experiencia, brindo atención profesional, cercana y respetuosa a cada mascota. Puedes confiar en Veterinaria Tacuabé porque tratamos a los animales como familia.</p>
+      <img src="img/yo-con-perro.jpg" alt="Veterinaria abrazando un perro" />
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form id="formulario-contacto">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Veterinaria Tacuabé | <a href="https://www.instagram.com/tacuabeveterinaria/" target="_blank">Instagram</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
